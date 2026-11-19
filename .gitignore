@@ -1,0 +1,32 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local biometric data (do not commit real face images)
+dataset/*
+!dataset/.gitkeep
+
+# Locally trained biometric models
+trained_model/*
+!trained_model/.gitkeep
+
+# Attendance records may contain personal information
+attendance/*
+!attendance/.gitkeep
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
