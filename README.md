@@ -1,4 +1,4 @@
-# Smart Attendance System (WEEK 4 - Computer Vision / OpenCV)
+# Smart Attendance System ( Computer Vision / OpenCV)
 
 A webcam-based attendance system: detect a face with a Haar Cascade
 classifier, recognize it against previously registered people, and log
